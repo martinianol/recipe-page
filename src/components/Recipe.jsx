@@ -1,8 +1,10 @@
+import styled from "styled-components";
+
 const Recipe = () => {
   return (
     <article>
       <img />
-      <h1>Simple Omelette Recipe</h1>
+      <Title>Simple Omelette Recipe</Title>
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette
         combines beaten eggs cooked to perfection, optionally filled with your
@@ -87,3 +89,8 @@ const Recipe = () => {
 };
 
 export default Recipe;
+
+const Title = styled.h1`
+  background-color: ${({ theme }) => theme.colors.rose[800]};
+  ${({ theme }) => theme.typography["text-preset-1"]}
+`;
