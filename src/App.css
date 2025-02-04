@@ -2,7 +2,7 @@
   font-family: "Outfit";
   src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
     format("truetype");
-  font-weight: normal;
+  font-weight: 100 900;
   font-style: normal;
 }
 
