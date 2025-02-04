@@ -1,13 +1,20 @@
+import styled from "styled-components";
 const Footer = () => {
   return (
-    <div className="attribution">
+    <FooterStyled className="attribution">
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
       </a>
       . Coded by <a href="#">Mars</a>.
-    </div>
+    </FooterStyled>
   );
 };
 
 export default Footer;
+
+const FooterStyled = styled.footer`
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+`;

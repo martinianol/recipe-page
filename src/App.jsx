@@ -1,12 +1,10 @@
 import "./App.css";
-import Recipe from "./components/Recipe";
-import Footer from "./components/Footer";
+import RecipePage from "./pages/RecipePage";
 
 function App() {
   return (
     <>
-      <Recipe />
-      <Footer />
+      <RecipePage />
     </>
   );
 }
