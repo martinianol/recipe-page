@@ -5,14 +5,15 @@ const PrepTime = () => {
     <Container>
       <Title>Preparation time</Title>
       <List>
-        <li>
+        <ListItem>
           <Bold>Total:</Bold> Approximately 10 minutes
-        </li>
-        <li>
-          {" "}
+        </ListItem>
+        <ListItem>
           <Bold>Preparation:</Bold> 5 minutes
-        </li>
-        <li>Cooking: 5 minutes</li>
+        </ListItem>
+        <ListItem>
+          <Bold>Cooking:</Bold> 5 minutes
+        </ListItem>
       </List>
     </Container>
   );
@@ -38,6 +39,23 @@ const List = styled.ul`
   gap: 8px;
   ${({ theme }) => theme.typography["text-preset-4"]}
   color: ${({ theme }) => theme.colors.stone[600]};
+  list-style-position: inside;
+  list-style: none;
+`;
+
+const ListItem = styled.li`
+  position: relative;
+  padding-left: 40px;
+
+  &::before {
+    content: "•"; 
+    font-size: 24px; 
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: ${({ theme }) => theme.colors.rose[800]};
+  }
 `;
 
 const Bold = styled.span`
