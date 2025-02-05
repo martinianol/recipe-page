@@ -55,7 +55,6 @@ Error generating stack: `+i.message+`
 `,Zh=xe.h1`
   color: ${({theme:u})=>u.colors.stone[900]};
   ${({theme:u})=>u.typography["text-preset-1"]}
-  font-size: 36px;
   margin-top: 40px;
 `,Jh=xe.p`
   ${({theme:u})=>u.typography["text-preset-4"]}
@@ -180,6 +179,7 @@ Error generating stack: `+i.message+`
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0px;
+    font-weight: 400;
   `,"text-preset-4-bold":lr`
     font-family: "Outfit";
     font-size: 16px;
