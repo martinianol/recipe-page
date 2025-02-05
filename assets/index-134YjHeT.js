@@ -63,6 +63,7 @@ Error generating stack: `+i.message+`
   }
 `,Jh=xe.p`
   ${({theme:u})=>u.typography["text-preset-4"]}
+  font-weight: 300;
   margin-top: 24px;
 `,Yo=xe.h2`
   ${({theme:u})=>u.typography["text-preset-2"]}
