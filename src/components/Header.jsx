@@ -25,6 +25,14 @@ const Image = styled.img`
   width: calc(100% + 64px);
   margin: 0 -32px;
   display: block;
+  object-fit: cover;
+
+  @media (min-width: 700px) {
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
 `;
 
 const Title = styled.h1`

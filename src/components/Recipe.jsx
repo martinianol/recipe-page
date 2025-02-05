@@ -29,4 +29,15 @@ const Container = styled.article`
   flex: 1;
   padding: 0 32px;
   overflow-y: auto;
+  background-color: ${({ theme }) => theme.colors.white};
+
+  @media (min-width: 700px) {
+    max-width: 616px;
+    padding: 40px;
+    border-radius: 24px;
+  }
+
+  @media (min-width: 1000px) {
+    max-width: 736px;
+  }
 `;
