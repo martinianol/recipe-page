@@ -66,7 +66,7 @@ Error generating stack: `+i.message+`
   margin-top: 24px;
 `,Yo=xe.h2`
   ${({theme:u})=>u.typography["text-preset-2"]}
-  color: ${({theme:u})=>u.colors.rose[800]};
+  color: ${({theme:u})=>u.colors.brown[800]};
 `,Ff=xe.li`
   position: relative;
   padding-left: 40px;
@@ -128,6 +128,8 @@ Error generating stack: `+i.message+`
   color:  ${({theme:u})=>u.colors.stone[600]};
 `,om=xe.table`
   border-collapse: collapse;
+  ${({theme:u})=>u.typography["text-preset-4"]}
+  color:  ${({theme:u})=>u.colors.stone[600]};
 `,pi=xe.tr``,an=xe.td`
   width: 50%;
   box-sizing: border-box;
