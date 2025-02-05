@@ -25,6 +25,7 @@ export const typography = {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0px;
+    font-weight: 400;
   `,
   "text-preset-4-bold": css`
     font-family: "Outfit";
