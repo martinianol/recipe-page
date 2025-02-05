@@ -56,6 +56,11 @@ Error generating stack: `+i.message+`
   color: ${({theme:u})=>u.colors.stone[900]};
   ${({theme:u})=>u.typography["text-preset-1"]}
   margin-top: 40px;
+  font-size: 36px;
+
+  @media (min-width: 700px) {
+    font-size: 40px;
+  }
 `,Jh=xe.p`
   ${({theme:u})=>u.typography["text-preset-4"]}
   margin-top: 24px;
