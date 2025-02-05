@@ -31,6 +31,6 @@ export const typography = {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0px;
-    font-weight: bold;
+    font-weight: 800;
   `,
 };
