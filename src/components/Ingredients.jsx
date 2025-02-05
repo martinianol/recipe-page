@@ -1,17 +1,25 @@
+import {
+  Section,
+  List,
+  ListItemWithCustomBullet,
+  SectionTitle,
+} from "./common/Common";
 const Ingredients = () => {
   return (
-    <section>
-      <h2>Ingredients</h2>
-      <ul>
-        <li> 2-3 large eggs</li>
-        <li>Salt, to taste</li>
-        <li>Pepper, to taste</li>
-        <li>1 tablespoon of butter or oil</li>
-        <li>
+    <Section>
+      <SectionTitle>Ingredients</SectionTitle>
+      <List>
+        <ListItemWithCustomBullet> 2-3 large eggs</ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>Salt, to taste</ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>Pepper, to taste</ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>
+          1 tablespoon of butter or oil
+        </ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>
           Optional fillings: cheese, diced vegetables, cooked meats, herbs
-        </li>
-      </ul>
-    </section>
+        </ListItemWithCustomBullet>
+      </List>
+    </Section>
   );
 };
 

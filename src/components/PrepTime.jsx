@@ -1,20 +1,25 @@
 import styled from "styled-components";
+import {
+  List,
+  ListItemWithCustomBullet,
+  Bold,
+} from "../components/common/Common";
 
 const PrepTime = () => {
   return (
     <Container>
       <Title>Preparation time</Title>
-      <List>
-        <ListItem>
+      <StyledList>
+        <ListItemWithCustomBullet>
           <Bold>Total:</Bold> Approximately 10 minutes
-        </ListItem>
-        <ListItem>
+        </ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>
           <Bold>Preparation:</Bold> 5 minutes
-        </ListItem>
-        <ListItem>
+        </ListItemWithCustomBullet>
+        <ListItemWithCustomBullet>
           <Bold>Cooking:</Bold> 5 minutes
-        </ListItem>
-      </List>
+        </ListItemWithCustomBullet>
+      </StyledList>
     </Container>
   );
 };
@@ -32,32 +37,6 @@ const Title = styled.h2`
   color: ${({ theme }) => theme.colors.rose[800]};
 `;
 
-const List = styled.ul`
+const StyledList = styled(List)`
   margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  ${({ theme }) => theme.typography["text-preset-4"]}
-  color: ${({ theme }) => theme.colors.stone[600]};
-  list-style-position: inside;
-  list-style: none;
-`;
-
-const ListItem = styled.li`
-  position: relative;
-  padding-left: 40px;
-
-  &::before {
-    content: "•"; 
-    font-size: 24px; 
-    position: absolute;
-    left: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: ${({ theme }) => theme.colors.rose[800]};
-  }
-`;
-
-const Bold = styled.span`
-  font-weight: 700;
 `;

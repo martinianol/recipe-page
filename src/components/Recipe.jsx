@@ -4,6 +4,7 @@ import PrepTime from "./PrepTime";
 import Ingredients from "./Ingredients";
 import Instructions from "./Instructions";
 import Nutrition from "./Nutrition";
+import { Divider } from "./common/Common";
 
 const Recipe = () => {
   return (
@@ -11,7 +12,9 @@ const Recipe = () => {
       <Header />
       <PrepTime />
       <Ingredients />
+      <Divider />
       <Instructions />
+      <Divider />
       <Nutrition />
     </Container>
   );
@@ -24,6 +27,6 @@ const Container = styled.article`
   flex-direction: column;
   gap: 32px;
   flex: 1;
-  overflow-y: auto;
   padding: 0 32px;
+  overflow-y: auto;
 `;
