@@ -46,11 +46,12 @@ export default Nutrition;
 const Description = styled.p`
   ${({ theme }) => theme.typography["text-preset-4"]}
   color:  ${({ theme }) => theme.colors.stone[600]};
-  font-weight: 500;
 `;
 
 const Table = styled.table`
   border-collapse: collapse;
+  ${({ theme }) => theme.typography["text-preset-4"]}
+  color:  ${({ theme }) => theme.colors.stone[600]};
 `;
 
 const TableRow = styled.tr``;

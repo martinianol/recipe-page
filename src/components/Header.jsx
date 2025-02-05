@@ -39,9 +39,15 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.stone[900]};
   ${({ theme }) => theme.typography["text-preset-1"]}
   margin-top: 40px;
+  font-size: 36px;
+
+  @media (min-width: 700px) {
+    font-size: 40px;
+  }
 `;
 
 const Description = styled.p`
   ${({ theme }) => theme.typography["text-preset-4"]}
+  font-weight: 300;
   margin-top: 24px;
 `;

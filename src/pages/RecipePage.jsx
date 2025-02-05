@@ -5,7 +5,6 @@ const RecipePage = () => {
   return (
     <MainLayout>
       <Recipe />
-      {/* <Footer /> */}
     </MainLayout>
   );
 };

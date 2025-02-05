@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionTitle = styled.h2`
   ${({ theme }) => theme.typography["text-preset-2"]}
-  color: ${({ theme }) => theme.colors.rose[800]};
+  color: ${({ theme }) => theme.colors.brown[800]};
 `;
 
 export const ListItem = styled.li`

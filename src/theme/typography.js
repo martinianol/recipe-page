@@ -12,6 +12,7 @@ export const typography = {
     font-size: 28px;
     line-height: 100%;
     letter-spacing: 0px;
+    font-weight: normal;
   `,
   "text-preset-3": css`
     font-family: "Outfit";
