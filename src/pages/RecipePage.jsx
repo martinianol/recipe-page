@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Recipe from "../components/Recipe";
-import Footer from "../components/Footer";
 
 const RecipePage = () => {
   return (

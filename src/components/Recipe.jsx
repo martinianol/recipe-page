@@ -34,6 +34,7 @@ const Container = styled.article`
     max-width: 616px;
     padding: 40px;
     border-radius: 24px;
+    margin: 128px auto;
   }
 
   @media (min-width: 1000px) {
