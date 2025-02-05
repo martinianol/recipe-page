@@ -126,7 +126,6 @@ Error generating stack: `+i.message+`
 `,im=()=>T.jsxs(Ko,{children:[T.jsx(Yo,{children:"Nutrition"}),T.jsx(um,{children:"The table below shows nutritional values per serving without the additional fillings."}),T.jsx(om,{children:T.jsxs("tbody",{children:[T.jsxs(pi,{children:[T.jsx(an,{left:!0,top:!0,children:"Calories"}),T.jsx(an,{strong:!0,top:!0,children:"277kcal"})]}),T.jsxs(pi,{children:[T.jsx(an,{left:!0,children:"Carbs"}),T.jsx(an,{strong:!0,children:"0g"})]}),T.jsxs(pi,{children:[T.jsx(an,{left:!0,children:"Protein"}),T.jsx(an,{strong:!0,children:"20g"})]}),T.jsxs(pi,{children:[T.jsx(an,{bottom:!0,left:!0,children:"Fat"}),T.jsx(an,{bottom:!0,strong:!0,children:"22g"})]})]})})]}),um=xe.p`
   ${({theme:u})=>u.typography["text-preset-4"]}
   color:  ${({theme:u})=>u.colors.stone[600]};
-  font-weight: 500;
 `,om=xe.table`
   border-collapse: collapse;
 `,pi=xe.tr``,an=xe.td`
@@ -173,6 +172,7 @@ Error generating stack: `+i.message+`
     font-size: 28px;
     line-height: 100%;
     letter-spacing: 0px;
+    font-weight: normal;
   `,"text-preset-3":lr`
     font-family: "Outfit";
     font-size: 20px;
