@@ -18,10 +18,5 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  background-color: #f3e5d7;
-  height: 100vh;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
+  height: 100%;
 }
