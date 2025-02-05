@@ -27,7 +27,7 @@ const Container = styled.article`
   flex-direction: column;
   gap: 32px;
   flex: 1;
-  padding: 0 32px;
+  padding: 0 32px 32px;
   overflow-y: auto;
   background-color: ${({ theme }) => theme.colors.white};
 

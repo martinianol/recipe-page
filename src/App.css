@@ -21,6 +21,7 @@
 }
 
 #root {
-  margin: 0 auto;
+  margin: auto;
   font-family: "Outfit", sans-serif;
+  width: 100%; /* Ensures root takes full width */
 }

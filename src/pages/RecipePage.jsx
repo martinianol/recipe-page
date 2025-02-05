@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Footer from "../components/Footer";
 import Recipe from "../components/Recipe";
+import Footer from "../components/Footer";
 
 const RecipePage = () => {
   return (
@@ -17,5 +17,10 @@ const MainLayout = styled.main`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  align-items: center;
+
+  @media (min-width: 700px) {
+    min-height: auto; /* ✅ Reset height for tablet/desktop */
+    justify-content: center; /* ✅ Center vertically on larger screens */
+    align-items: center;
+  }
 `;
